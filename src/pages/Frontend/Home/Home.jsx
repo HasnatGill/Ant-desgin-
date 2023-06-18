@@ -10,7 +10,7 @@ export default function Home() {
 			{
 				path: 'lib',
 				// licenseKey: 'demo:1687013927635:7d82999a03000000009017f03a9b78903e5513024c42cb0ca11b316894',
-				initialDoc: '/src/assets/file/document.pdf',
+				initialDoc: '/src/assets/file/',
 				fullAPI: true,
 			},
 			viewer.current,
