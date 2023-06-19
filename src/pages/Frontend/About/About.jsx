@@ -8,10 +8,10 @@ function About() {
         <Col span={12} sm={24} lg={12}>
           <Row>
             <Col span={24}>
-              <h1>This is 24</h1>
+              <h1>This is Span 24</h1>
             </Col>
             <Col span={24}>
-              <h1>This is 24</h1>
+              <h1>This is Span 24</h1>
             </Col>
           </Row>
         </Col>
