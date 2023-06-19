@@ -11,7 +11,7 @@ function About() {
               <h1>This is Span 24</h1>
             </Col>
             <Col span={24}>
-              <h1>This is Span 24</h1>
+              <h1>This is 24</h1>
             </Col>
           </Row>
         </Col>
