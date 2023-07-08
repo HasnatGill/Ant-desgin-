@@ -26,7 +26,7 @@ function index() {
                     </Route>
                 </Routes>
             </main>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
