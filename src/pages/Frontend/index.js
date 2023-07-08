@@ -7,7 +7,7 @@ import Paymethod from './Paymethod'
 import Success from './Success/Success'
 import NoFound from './NoFound/NoFound'
 import Navbar from '../../Component/Navbar'
-import Footer from '../../Component/Footer'
+// import Footer from '../../Component/Footer'
 
 
 function index() {
