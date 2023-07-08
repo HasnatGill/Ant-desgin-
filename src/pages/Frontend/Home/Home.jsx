@@ -1,5 +1,4 @@
 import React from 'react'
-import { DeleteOutlined } from '@ant-design/icons';
 
 export default function Home() {
     return (
@@ -11,6 +10,7 @@ export default function Home() {
             </div>
             <div className="list_section d-flex py-3 px-5 justify-content-between align-items-center">
                 <h6>fullName</h6>
+                <h6>Delete</h6>
             </div>
         </div>
     )
