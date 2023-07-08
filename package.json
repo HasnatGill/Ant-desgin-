@@ -5,6 +5,7 @@
   "dependencies": {
     "@pdftron/webviewer": "^10.1.0",
     "@react-email/render": "^0.0.6",
+    "@reduxjs/toolkit": "^1.9.5",
     "@sendgrid/mail": "^7.7.0",
     "@stripe/react-stripe-js": "^1.16.3",
     "@stripe/stripe-js": "^1.46.0",
@@ -16,6 +17,7 @@
     "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "react-stripe-checkout": "^2.6.3",
