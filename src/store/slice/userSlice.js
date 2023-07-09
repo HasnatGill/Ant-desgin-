@@ -7,10 +7,14 @@ const userSlice = createSlice({
         addUser(state, action) {
             state.push(action.payload)
         },
-        removeuser(state, action) { },
-        deleteAllUser(state, action) { },
+        removeUser(state, action) {
+            state.splice(action.payload, 1)
+        },
+        deleteAllUser(state, action) {
+            return state = [];
+        },
     }
 })
 
 export default userSlice.reducer;
-export const { addUser } = userSlice.actions;
+export const { addUser, removeUser, deleteAllUser } = userSlice.actions;

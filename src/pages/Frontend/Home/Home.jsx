@@ -1,15 +1,27 @@
 import React from 'react'
 import { AiFillDelete } from "react-icons/ai"
+import { useDispatch, useSelector } from 'react-redux'
+import { addUser, deleteAllUser, removeUser } from '../../../store/slice/userSlice'
 import { fakeUserData } from '../../../api'
-import { useDispatch } from 'react-redux'
-import { addUser } from '../../../store/slice/userSlice'
 
 export default function Home() {
 
     const dispatch = useDispatch()
 
+    const data = useSelector((state) => {
+        return state.users
+    })
+
     const addNewUser = (name) => {
         dispatch(addUser(name))
+    }
+
+    const deleteUser = (i) => {
+        dispatch(removeUser(i))
+    }
+
+    const clearUser = () => {
+        dispatch(deleteAllUser())
     }
 
     return (
@@ -20,14 +32,22 @@ export default function Home() {
                 <button className='add-btn' onClick={() => addNewUser(fakeUserData())}>Add the User</button>
             </div>
             <hr />
-            <div className="list_section d-flex py-3 px-5 justify-content-between align-items-center">
-                <h6>fullName</h6>
-                <span><AiFillDelete className='fs-5 text-danger' /></span>
-            </div>
+            {
+                data.map((user, i) => {
+                    return (
+                        <div key={i}>
+                            <div className="list_section d-flex py-3 px-5 justify-content-between align-items-center">
+                                <h6>{user}</h6>
+                                <span><AiFillDelete onClick={() => deleteUser(i)} className='fs-5 text-danger' /></span>
+                            </div>
+                            <hr />
+                        </div>
+                    )
+                })
+            }
 
-            <hr />
 
-            <button className="myButton d-block ms-auto">Clear All User</button>
+            <button className="myButton d-block ms-auto" onClick={() => clearUser()} >Clear All User</button>
 
         </div>
     )
