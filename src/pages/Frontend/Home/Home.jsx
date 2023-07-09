@@ -12,7 +12,7 @@ export default function Home() {
 
             <div className="list_section d-flex py-3 px-5 justify-content-between align-items-center">
                 <h6>fullName</h6>
-                <span><AiFillDelete className='fs-5' /></span>
+                <span><AiFillDelete className='fs-5 text-danger' /></span>
             </div>
 
 
