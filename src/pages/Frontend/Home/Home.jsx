@@ -1,13 +1,23 @@
 import React from 'react'
 import { AiFillDelete } from "react-icons/ai"
+import { fakeUserData } from '../../../api'
+import { useDispatch } from 'react-redux'
+import { addUser } from '../../../store/slice/userSlice'
 
 export default function Home() {
+
+    const dispatch = useDispatch()
+
+    const addNewUser = (name) => {
+        dispatch(addUser(name))
+    }
+
     return (
         <div className="container">
 
             <div className="d-flex justify-content-between align-items-center">
                 <h2>List of User</h2>
-                <button className='add-btn'>Add the User</button>
+                <button className='add-btn' onClick={() => addNewUser(fakeUserData())}>Add the User</button>
             </div>
             <hr />
             <div className="list_section d-flex py-3 px-5 justify-content-between align-items-center">
