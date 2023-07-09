@@ -16,7 +16,7 @@ export default function Home() {
             </div>
 
             <hr />
-
+            
             <button className="myButton d-block ms-auto">Clear All User</button>
 
         </div>
