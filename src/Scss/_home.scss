@@ -15,3 +15,26 @@
     box-shadow: inset 4px 4px 12px #c5c5c5,
                 inset -4px -4px 12px #ffffff;
    }
+
+
+   .myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#c27878;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:19px;
+	padding:9px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #662828;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#ea5255;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

@@ -15,9 +15,11 @@ export default function Home() {
                 <span><AiFillDelete className='fs-5 text-danger' /></span>
             </div>
 
+            <hr />
 
+            <button className="myButton d-block ms-auto">Clear All User</button>
 
         </div>
-    )    
+    )
 }
 
