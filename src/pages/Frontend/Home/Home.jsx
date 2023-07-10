@@ -28,7 +28,7 @@ export default function Home() {
         <div className="container">
 
             <div className="d-flex justify-content-between align-items-center">
-                <h2>List of User</h2>
+                <h2>LIST of User</h2>
                 <button className='add-btn' onClick={() => addNewUser(fakeUserData())}>ADD THE USER</button>
             </div>
             <hr />
