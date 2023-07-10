@@ -47,7 +47,7 @@ export default function Home() {
             }
 
 
-            <button className="myButton d-block ms-auto" onClick={() => clearUser()} >CLEAR ALL User</button>
+            <button className="myButton d-block ms-auto" onClick={() => clearUser()} >CLEAR ALL USER</button>
 
         </div>
     )
