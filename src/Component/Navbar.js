@@ -8,7 +8,7 @@ export default function Navbar() {
 
             <ul style={{ listStyle: "none", display: "flex" }} className='text-center bg-secondary justify-content-center my-4 text-warning py-3'>
                 <li className='px-3 pointer-cursor'>HOME</li>
-                <li className='px-3 pointer-cursor'>ABOUT</li>
+                <li className='px-3 pointer-cursor'>ABOUT US</li>
                 <li className='px-3 pointer-cursor'>PROJECTS</li>
                 <li className='px-3 pointer-cursor'>CONTACT</li>
                 <li className='px-3 pointer-cursor'>CODE</li>
