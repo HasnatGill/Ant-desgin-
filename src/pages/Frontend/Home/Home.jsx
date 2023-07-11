@@ -29,7 +29,7 @@ export default function Home() {
 
             <div className="d-flex justify-content-between align-items-center">
                 <h2>LIST OF USER</h2>
-                <button className='add-btn' onClick={() => addNewUser(fakeUserData())}>ADD THE USER</button>
+                <button className='add-btn' onClick={() => addNewUser(fakeUserData())}>ADD NEW USER</button>
             </div>
             <hr />
             {
