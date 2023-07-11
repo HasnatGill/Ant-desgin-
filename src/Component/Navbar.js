@@ -10,7 +10,7 @@ export default function Navbar() {
                 <li className='px-3 pointer-cursor'>HOME</li>
                 <li className='px-3 pointer-cursor'>ABOUT</li>
                 <li className='px-3 pointer-cursor'>PROJECTS</li>
-                <li className='px-3 pointer-cursor'>CODE</li>
+                <li className='px-3 pointer-cursor'>BLOG</li>
                 <li className='px-3 pointer-cursor'>CONTACT</li>
             </ul>
 
